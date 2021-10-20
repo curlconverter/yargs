@@ -1,7 +1,7 @@
 {
-  "name": "yargs",
-  "version": "17.2.1",
-  "description": "yargs the modern, pirate-themed, successor to optimist.",
+  "name": "@curlconverter/yargs",
+  "version": "0.0.1",
+  "description": "a fork of yargs, the modern, pirate-themed, successor to optimist.",
   "main": "./index.cjs",
   "exports": {
     "./package.json": "./package.json",
@@ -25,12 +25,6 @@
   },
   "type": "module",
   "module": "./index.mjs",
-  "contributors": [
-    {
-      "name": "Yargs Contributors",
-      "url": "https://github.com/yargs/yargs/graphs/contributors"
-    }
-  ],
   "files": [
     "browser.mjs",
     "index.cjs",
@@ -52,7 +46,7 @@
     "require-directory": "^2.1.1",
     "string-width": "^4.2.0",
     "y18n": "^5.0.5",
-    "yargs-parser": "^20.2.2"
+    "@curlconverter/yargs-parser": "^0.0.1"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
@@ -97,18 +91,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yargs/yargs.git"
+    "url": "https://github.com/curlconverter/yargs.git"
   },
-  "homepage": "https://yargs.js.org/",
-  "keywords": [
-    "argument",
-    "args",
-    "option",
-    "parser",
-    "parsing",
-    "cli",
-    "command"
-  ],
   "license": "MIT",
   "engines": {
     "node": ">=12"
