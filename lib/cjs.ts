@@ -25,7 +25,7 @@ if (process && process.version) {
   }
 }
 
-const Parser = require('yargs-parser');
+const Parser = require('@curlconverter/yargs-parser');
 const Yargs = YargsFactory(cjsPlatformShim);
 
 export default {

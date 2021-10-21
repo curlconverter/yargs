@@ -5,7 +5,7 @@ const {readFileSync} = require('fs');
 const {inspect} = require('util');
 const {resolve} = require('path');
 const y18n = require('y18n');
-const Parser = require('yargs-parser');
+const Parser = require('@curlconverter/yargs-parser');
 
 export default {
   assert: {

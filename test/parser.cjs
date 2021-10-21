@@ -2,7 +2,7 @@
 /* global it */
 
 const yargs = require('../build/index.cjs');
-const Parser = require('yargs-parser');
+const Parser = require('@curlconverter/yargs-parser');
 
 require('chai').should();
 
